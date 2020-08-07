@@ -5,9 +5,10 @@ module.exports = {
     },
     extends: [
       'plugin:react/recommended',
+      'plugin:react-hooks/recommended',
       'prettier',
       'prettier/react',
-      'prettier/standard'
+      'prettier/standard',
     ],
     parserOptions: {
       ecmaFeatures: {
@@ -18,6 +19,7 @@ module.exports = {
     },
     plugins: ['prettier', 'react'],
     rules: {
+      'react-hooks/exhaustive-deps': 'off', // because of this bug https://github.com/facebook/react/issues/17060
       'react/prop-types': 0,
       'space-before-function-paren': 'off',
       'prettier/prettier': [
