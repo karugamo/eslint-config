@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "ISC",
   "scripts": {
-    "postinstall": "cp -n eslintrc.js $INIT_CWD"
+    "postinstall": "cp -n .seslintrc.js $INIT_CWD"
   },
   "devDependencies": {
     "eslint": "^7.6.0"
@@ -16,7 +16,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.20.5"
+    "eslint-plugin-react": "^7.20.5",
+    "prettier": "^2.0.5"
   },
   "peerDependencies": {
     "eslint": ">= 7"
