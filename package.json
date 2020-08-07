@@ -4,6 +4,9 @@
   "description": "Personal eslint config",
   "main": "index.js",
   "license": "ISC",
+  "scripts": {
+    "postinstall": "cp -n eslintrc.js $INIT_CWD"
+  },
   "devDependencies": {
     "eslint": "^7.6.0"
   },
