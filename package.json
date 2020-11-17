@@ -1,16 +1,15 @@
 {
   "name": "@flexi/eslint-config",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Personal eslint config",
   "main": "index.js",
   "license": "ISC",
-  "scripts": {
-    "postinstall": "cp -n .eslintrc.js $INIT_CWD || true"
-  },
   "devDependencies": {
     "eslint": "^7.6.0"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
