@@ -1,5 +1,5 @@
 # eslint-config
 
 ```
-npm i eslint https://github.com/flexiproducts/eslint-config --save-dev
+npm i eslint https://github.com/karugamo/eslint-config --save-dev
 ```
